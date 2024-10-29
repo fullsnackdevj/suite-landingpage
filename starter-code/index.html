@@ -1,43 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Suite landing page</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
 
-  Request Beta Access
+    <link rel="stylesheet" href="./css/style.css" />
 
-  A super solution for your business.
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  Our marketing and sales automations help you scale your outreach to 
-  get more leads for your company. 
+    <title>Frontend Mentor | Suite landing page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <a href="#">
+          <img src="./assets/logo.svg" width="81" alt="" />
+        </a>
 
-  Request Beta Access
+        <a class="btn secondary" href="#"><span>Request Beta Access</span></a>
+      </header>
 
-  2K+
-  Companies
+      <main>
+        <!-- hero -->
 
-  8
-  Languages
+        <section class="hero">
+          <div class="__text">
+            <h1>
+              A <span class="boldText">super solution</span> for your
+              <span class="boldText">business.</span>
+            </h1>
+            <p>
+              Our marketing and sales automations help you scale your outreach
+              to get more leads for your company.
+            </p>
 
-  1.2M
-  Leads
+            <a href="#" class="btn flex-start primary"><span>Request Beta Access</a>
+            </span></div>
 
-  It just works.
+          <div class="__image">
+            <img
+              src="./assets/image-hero-portrait.png"
+              alt="phone with statistics screen with background of gradient linear yellow purple and violet"
+            />
+          </div>
 
-  “I really like how it is an all-in-one solution that handle many of 
-  the tasks that you would normally need separate tools to do the same 
-  job. This thing is a miracle worker.”
+          <div class="__stats">
+            <div class="___items">
+              <h3>2K+</h3>
+              <p>Companies</p>
+            </div>
+            <div class="___items">
+              <h3>8</h3>
+              <p>Languages</p>
+            </div>
+            <div class="___items">
+              <h3>1.2M</h3>
+              <p>Leads</p>
+            </div>
+          </div>
+        </section>
 
-  Jeremy Robinson
-  CMO, Fylo
+        <article class="review">
+          <div class="__card">
+            <img src="./assets/image-jeremy-small.webp" alt="" />
 
-  Copyright - Suite
+            <div class="__texts">
+              <h2>It just works.</h2>
+              <p>
+                “I really like how it is an all-in-one solution that handle many
+                of the tasks that you would normally need separate tools to do
+                the same job. This thing is a miracle worker.”
+              </p>
+            </div>
 
-</body>
+            <div class="author">
+              <h3>Jeremy Robinson</h3>
+              <p>CMO, Fylo</p>
+            </div>
+          </div>
+        </article>
+      </main>
+
+      <footer class="footer">
+        <img src="./assets/logo.svg" alt="suite logo in footer area" />
+
+        <span>Copyright - Suite</span>
+
+        <div class="__socMedIcons">
+          <a href="#"><img src="./assets/icon-facebook.svg" alt="" /></a>
+
+          <a href="#"><img src="./assets/icon-twitter.svg" alt="" /></a>
+
+          <a href="#"><img src="./assets/icon-instagram.svg" alt="" /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>

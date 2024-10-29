@@ -1,0 +1,26 @@
+.hero {
+  margin-top: 83.32px;
+}
+
+.hero .__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hero .__text h1 {
+  font-size: 38px;
+  line-height: 1.2;
+  letter-spacing: -0.53px;
+  font-weight: 400;
+}
+
+.hero .__text h1 .boldText {
+  font-weight: bold;
+}
+
+.hero .__text p {
+  color: var(--clr-blue-600);
+  font-size: 1rem;
+  line-height: 1.75;
+}
